@@ -1,0 +1,10 @@
+{
+  "name": "mobile-ui-loop-runtime",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pinned agent-device runtime for Mobile UI Loop",
+  "type": "module",
+  "engines": {"node": ">=22.12"},
+  "dependencies": {"agent-device": "0.21.23"},
+  "scripts": {"test": "node --test tests/runtime.test.mjs"}
+}
