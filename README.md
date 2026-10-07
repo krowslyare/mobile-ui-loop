@@ -39,17 +39,24 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e .
-npm ci
 mobile-ui-loop --session examples/fieldnotes-session view
 ```
 
 Open the loopback URL printed by the command. Select captures, read the review,
 and open a state to compare the original with its generated proposal.
-The viewer uses local files; it does not call a model.
+The viewer uses local files; it does not call a model. Keep that terminal running
+while browsing; Ctrl+C stops the viewer. Without `--port`, each launch prints an
+available port. Node, a device and an API key are unnecessary for this example.
 
 ## Collect your app
 
-Start with an installed app and an explicit Android serial or iOS UDID:
+Install the pinned device runtime first, then follow the
+[Android/iOS setup](docs/agent-device.md#prepare-a-device). Start with a running
+device, an installed app and an explicit Android serial or iOS UDID:
+
+```sh
+npm ci
+```
 
 ```sh
 mobile-ui-loop --session .mobile-ui-loop/my-app open com.example.myapp \
@@ -97,6 +104,12 @@ collection you opened:
 }
 ```
 
+The viewer is a read-only comparison screen. Opening it does not start an agent
+or generate designs. Run CLI commands from your agent's terminal tools, or attach
+the MCP server to your client. The JSON above is a generic example; use your
+client's supported configuration format. Leave stdio process startup to the MCP
+client.
+
 A useful task for the agent:
 
 > Explore this mobile app and collect representative screens, including loading,
@@ -121,6 +134,9 @@ does not silently discard context.
 
 There is also a Python provider for OpenAI vision review and image edits. Set
 `OPENAI_API_KEY` locally and supply model IDs available to your account:
+
+`loop` starts from an existing collection. It evaluates and generates; discovery
+and navigation happen beforehand through the agent tools or CLI.
 
 ```sh
 mobile-ui-loop --session .mobile-ui-loop/my-app loop \
