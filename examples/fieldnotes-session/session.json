@@ -1,0 +1,3866 @@
+{
+  "schema_version": 1,
+  "session_id": "ce6d89afd3994d13a83b1d4c08ab8967",
+  "project_name": "Fieldnotes / Android collection",
+  "created_at": "2026-10-07T05:52:59+00:00",
+  "registered_states": [
+    {
+      "id": "home",
+      "title": "home"
+    },
+    {
+      "id": "discover",
+      "title": "discover"
+    },
+    {
+      "id": "detail",
+      "title": "detail"
+    },
+    {
+      "id": "loading",
+      "title": "loading"
+    },
+    {
+      "id": "empty",
+      "title": "empty"
+    },
+    {
+      "id": "error",
+      "title": "error"
+    },
+    {
+      "id": "saved",
+      "title": "saved"
+    },
+    {
+      "id": "settings",
+      "title": "settings"
+    },
+    {
+      "id": "save-modal",
+      "title": "save-modal"
+    },
+    {
+      "id": "ready",
+      "title": "ready"
+    }
+  ],
+  "captures": [
+    {
+      "id": "0001-home",
+      "file": "captures/0001-home.png",
+      "state_id": "home",
+      "title": "Home / weekend discovery",
+      "description": "Godot Android demo home, captured through agent-device on an isolated emulator.",
+      "kind": "observed",
+      "sha256": "c767c209ce4f66e1a24a0ea8dae51af6453ee9cb47c250e6bad7e87e22e1a606",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:53:36+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": false,
+          "installReason": "missing",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 316
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 1,
+            "p50Ms": 3656,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 1
+            }
+          }
+        },
+        "refsGeneration": 914656,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0002-detail",
+      "file": "captures/0002-detail.png",
+      "state_id": "detail",
+      "title": "Detail",
+      "description": "Observed in the Fieldnotes Android demo using agent-device coordinate navigation.",
+      "kind": "observed",
+      "sha256": "63b717f2225bf383c495fbc55faba4045ea64efaf70012f3d75029b775e59515",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:58:27+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 31
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 291133,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 2,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 2
+            }
+          }
+        },
+        "refsGeneration": 914657,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0003-loading",
+      "file": "captures/0003-loading.png",
+      "state_id": "loading",
+      "title": "Loading",
+      "description": "Observed in the Fieldnotes Android demo using agent-device coordinate navigation.",
+      "kind": "observed",
+      "sha256": "7c7992be64ffe41a01c49f579d3f9e00ff064f34e92a8a900c9b15182abbc713",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:58:30+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 10
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 3071,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 3,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 3
+            }
+          }
+        },
+        "refsGeneration": 914658,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0004-error",
+      "file": "captures/0004-error.png",
+      "state_id": "error",
+      "title": "Error",
+      "description": "Observed in the Fieldnotes Android demo using agent-device coordinate navigation.",
+      "kind": "observed",
+      "sha256": "1e39ced4d464e2f666826cef3970e10900cf4753a5ee23026e1dffbf8e2d5063",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:58:34+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 131
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 3981,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 4,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 4
+            }
+          }
+        },
+        "refsGeneration": 914659,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0005-empty",
+      "file": "captures/0005-empty.png",
+      "state_id": "empty",
+      "title": "Empty",
+      "description": "Observed in the Fieldnotes Android demo using agent-device coordinate navigation.",
+      "kind": "observed",
+      "sha256": "e2e1bd5d96db9c906c8375bf3bb472e0bc06873f1aa63e492760ea24ba206f94",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:58:39+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 14
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 4249,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 5,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 5
+            }
+          }
+        },
+        "refsGeneration": 914660,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0006-settings",
+      "file": "captures/0006-settings.png",
+      "state_id": "settings",
+      "title": "Settings",
+      "description": "Observed in the Fieldnotes Android demo using agent-device coordinate navigation.",
+      "kind": "observed",
+      "sha256": "bd44bab089a78f1ace4caa5b09578b35fd1f34e3a759a320750849141a96efb4",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:58:55+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 8
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 16656,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 6,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 6
+            }
+          }
+        },
+        "refsGeneration": 914661,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0007-discover",
+      "file": "captures/0007-discover.png",
+      "state_id": "discover",
+      "title": "Discover",
+      "description": "Observed in the Fieldnotes Android demo using agent-device coordinate navigation.",
+      "kind": "observed",
+      "sha256": "fbf5a7d8624e759b2b7b86a9179a0cdafaa9c57d675cf46fc64237bcd201e974",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:58:59+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 74
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 3420,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 7,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 7
+            }
+          }
+        },
+        "refsGeneration": 914662,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0008-detail-context",
+      "file": "captures/0008-detail-context.png",
+      "state_id": "detail",
+      "title": "Trail detail before saving",
+      "description": "",
+      "kind": "observed",
+      "sha256": "63b717f2225bf383c495fbc55faba4045ea64efaf70012f3d75029b775e59515",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:59:34+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 151
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 35244,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 8,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 8
+            }
+          }
+        },
+        "refsGeneration": 914663,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      },
+      "duplicate_of": "0002-detail"
+    },
+    {
+      "id": "0009-save-modal",
+      "file": "captures/0009-save-modal.png",
+      "state_id": "save-modal",
+      "title": "Save confirmation",
+      "description": "",
+      "kind": "observed",
+      "sha256": "7c6c3c48bba07ac490ea70372926517e80a340c2cd0dea52bc65c6f2b6a0fd67",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:59:38+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 5
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 3795,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 9,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 9
+            }
+          }
+        },
+        "refsGeneration": 914664,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0010-saved",
+      "file": "captures/0010-saved.png",
+      "state_id": "saved",
+      "title": "Saved weekend plan",
+      "description": "",
+      "kind": "observed",
+      "sha256": "15fe45bc54073f886b4b8c076ad390aaba1bdc3b0e554928a1059218c0c2eceb",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:59:43+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 125
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 5243,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 10,
+            "p50Ms": 55,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 10
+            }
+          }
+        },
+        "refsGeneration": 914665,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    },
+    {
+      "id": "0011-ready",
+      "file": "captures/0011-ready.png",
+      "state_id": "ready",
+      "title": "Itinerary ready",
+      "description": "",
+      "kind": "observed",
+      "sha256": "0262f109405d1e97ab019a2979c7b61c87f3b049a3cd4ca1888df0890246190c",
+      "image_size": [
+        1080,
+        2340
+      ],
+      "captured_at": "2026-10-07T05:59:48+00:00",
+      "snapshot": {
+        "nodes": [
+          {
+            "index": 0,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 0,
+            "ref": "e1",
+            "kind": "group"
+          },
+          {
+            "index": 1,
+            "type": "android.widget.LinearLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 1,
+            "parentIndex": 0,
+            "ref": "e2",
+            "kind": "group"
+          },
+          {
+            "index": 2,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "android:id/content",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 2,
+            "parentIndex": 1,
+            "ref": "e3",
+            "kind": "group"
+          },
+          {
+            "index": 3,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "identifier": "com.godot.game:id/godot_fragment_container",
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 3,
+            "parentIndex": 2,
+            "ref": "e4",
+            "kind": "group"
+          },
+          {
+            "index": 4,
+            "type": "android.widget.FrameLayout",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "visibleToUser": true,
+            "depth": 4,
+            "parentIndex": 3,
+            "ref": "e5",
+            "kind": "group"
+          },
+          {
+            "index": 5,
+            "type": "android.view.SurfaceView",
+            "enabled": true,
+            "selected": false,
+            "editable": false,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "focused": true,
+            "visibleToUser": true,
+            "hittable": true,
+            "depth": 5,
+            "parentIndex": 4,
+            "ref": "e6",
+            "kind": "surfaceview"
+          },
+          {
+            "index": 6,
+            "type": "android.widget.EditText",
+            "enabled": true,
+            "selected": false,
+            "editable": true,
+            "password": false,
+            "hintShowing": false,
+            "bundleId": "dev.mobileuiloop.fieldnotes",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "visibleToUser": true,
+            "hittable": false,
+            "depth": 5,
+            "parentIndex": 4,
+            "interactionBlocked": "covered",
+            "presentationHints": [
+              "covered"
+            ],
+            "ref": "e7",
+            "kind": "text-field"
+          }
+        ],
+        "truncated": false,
+        "appName": "dev.mobileuiloop.fieldnotes",
+        "appBundleId": "dev.mobileuiloop.fieldnotes",
+        "keyboard": {
+          "kind": "absent"
+        },
+        "viewport": [
+          1080,
+          2340
+        ],
+        "visibility": {
+          "partial": false,
+          "visibleNodeCount": 7,
+          "totalNodeCount": 7,
+          "reasons": []
+        },
+        "androidSnapshot": {
+          "backend": "android-helper",
+          "pixelDensity": 2.75,
+          "helperVersion": "0.21.23",
+          "helperApiVersion": "2",
+          "helperTransport": "persistent-session",
+          "helperSessionReused": true,
+          "installReason": "current",
+          "waitForIdleTimeoutMs": 500,
+          "waitForIdleQuietMs": 100,
+          "timeoutMs": 2000,
+          "maxDepth": 128,
+          "maxNodes": 5000,
+          "rootPresent": true,
+          "captureMode": "interactive-windows",
+          "windowCount": 1,
+          "missingRootWindowTypes": [],
+          "nodeCount": 7,
+          "helperTruncated": false,
+          "elapsedMs": 73
+        },
+        "snapshotQuality": {
+          "state": "healthy",
+          "backend": "android-helper"
+        },
+        "unchanged": {
+          "ageMs": 5139,
+          "nodeCount": 7
+        },
+        "snapshotDiagnostics": {
+          "stats": {
+            "count": 11,
+            "p50Ms": 81,
+            "p95Ms": 3656,
+            "maxMs": 3656,
+            "slowThresholdMs": 1500,
+            "platform": "android",
+            "backends": {
+              "android": 11
+            }
+          }
+        },
+        "refsGeneration": 914666,
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399",
+          "appId": "dev.mobileuiloop.fieldnotes",
+          "appBundleId": "dev.mobileuiloop.fieldnotes"
+        },
+        "controls": [
+          {
+            "id": "e1",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e2",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e3",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e4",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e5",
+            "type": "group",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e6",
+            "type": "surfaceview",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 2340
+            },
+            "disabled": false
+          },
+          {
+            "id": "e7",
+            "type": "text-field",
+            "text": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1080,
+              "height": 132
+            },
+            "disabled": false
+          }
+        ],
+        "semantic_capture_available": true,
+        "semantic_ui_detail": "structural_only",
+        "labelled_node_count": 0,
+        "metadata_timing": "semantic context sampled after screenshot",
+        "image_viewport": [
+          1080,
+          2340
+        ]
+      },
+      "runtime": {
+        "identifiers": {
+          "session": "ui-loop-ce6d89afd399"
+        },
+        "displayRotation": "portrait"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "summary": "The collection already has a coherent forest-and-paper identity. A compact editorial hierarchy could give the actual trail choices and route data more prominence while keeping loading and recovery states clearly distinct. These are visual hypotheses, not usability scores.",
+      "observations": [
+        {
+          "capture_id": "0001-home",
+          "issue": "The large two-line hero heading fills much of the upper screen, and its supporting text begins close to the last line.",
+          "suggestion": "Reduce the headline footprint and add separation before the subtitle, bringing the featured trail higher."
+        },
+        {
+          "capture_id": "0002-detail",
+          "issue": "The route map dominates the detail page while the useful distance, time and pace appear in one visually uniform block.",
+          "suggestion": "Balance map height with a compact, aligned information strip and retain both preparation and saving actions."
+        },
+        {
+          "capture_id": "0003-loading",
+          "issue": "The progress label sits close to the bottom of the bar, while Connection help is visually faint relative to the main recovery button.",
+          "suggestion": "Add spacing around progress feedback and make the secondary help action legible while preserving the loading state."
+        },
+        {
+          "capture_id": "0007-discover",
+          "issue": "Both trail rows repeat the same landscape thumbnail and have large text/illustration blocks.",
+          "suggestion": "Use coherent but distinct illustrated crops and tighter information alignment to make the two trails easier to scan."
+        }
+      ],
+      "direction": {
+        "name": "A quiet field journal",
+        "palette": [
+          "#F5F3EA",
+          "#183F34",
+          "#7C927D",
+          "#D9EDAA",
+          "#C28B53"
+        ],
+        "typography": "An editorial serif headline with crisp sans-serif controls and trail metadata.",
+        "principles": [
+          "Preserve existing actions and state distinctions.",
+          "Give trail choices and route data priority over decorative headings.",
+          "Use one shared visual language across ordinary, loading and recovery states."
+        ]
+      },
+      "prompts": [
+        {
+          "capture_id": "0001-home",
+          "prompt": "Use case: ui-mockup. Create one polished portrait mobile UI screenshot, edge to edge, no device frame, no perspective, no montage. Image 1 is the target state to redesign; other images are context from the same Fieldnotes app. Audience: beginner weekend walkers planning short coastal trails. Shared direction: a quiet outdoor field journal, warm ivory #F5F3EA, deep forest #183F34, muted sage #7C927D, restrained lime #D9EDAA and small ochre route markers. Crisp contemporary sans serif for controls, editorial serif only for the main headline. Preserve the original actions, content and selected navigation state. Use comfortable text contrast and a clear 8-point rhythm; compact the oversized heading area, give the important trail information more hierarchy, and keep generous breathing room. Use a richer original flat landscape illustration with fine contour lines; no invented photos, ratings, memberships or new product features. Keep all supplied copy readable and accurate. Target: Home. Retain fieldnotes branding, MAKE ROOM FOR OUTSIDE, A little more outside., the two supporting sentences, Cerro Azul loop with 4.8 km, Easy and 1 h 20 min, its open-arrow action, A good day to wander, weather 21 degrees with Clear skies, light breeze and water reminder. Retain bottom navigation Home, Explore, Saved, You with Home selected. Make the landscape trail card the visual anchor; use a more compact weather row and a rounded forest-green arrow button. Render at roughly the source tall phone aspect ratio with safe-area status bar and home indicator."
+        },
+        {
+          "capture_id": "0002-detail",
+          "prompt": "Use case: ui-mockup. Create one polished portrait mobile UI screenshot, edge to edge, no device frame, no perspective, no montage. Image 1 is the target state to redesign; other images are context from the same Fieldnotes app. Audience: beginner weekend walkers planning short coastal trails. Shared direction: a quiet outdoor field journal, warm ivory #F5F3EA, deep forest #183F34, muted sage #7C927D, restrained lime #D9EDAA and small ochre route markers. Crisp contemporary sans serif for controls, editorial serif only for the main headline. Preserve the original actions, content and selected navigation state. Use comfortable text contrast and a clear 8-point rhythm; compact the oversized heading area, give the important trail information more hierarchy, and keep generous breathing room. Use a richer original flat landscape illustration with fine contour lines; no invented photos, ratings, memberships or new product features. Keep all supplied copy readable and accurate. Target: Trail notes detail for Cerro Azul loop. Keep back, the coastal subtitle, contour route map, distance4.8 km, estimatedtime1h20 and Easypace. Keep Leave early. Take your time., the water/lightlayer/friend advice and lookoutbeforemidday. Retain Prepare my route primary and Save secondary plus bottomnavigation with Explore selected. Improve the map/data hierarchy and clearly separate advice from actions."
+        },
+        {
+          "capture_id": "0003-loading",
+          "prompt": "Use case: ui-mockup. Create one polished portrait mobile UI screenshot, edge to edge, no device frame, no perspective, no montage. Image 1 is the target state to redesign; other images are context from the same Fieldnotes app. Audience: beginner weekend walkers planning short coastal trails. Shared direction: a quiet outdoor field journal, warm ivory #F5F3EA, deep forest #183F34, muted sage #7C927D, restrained lime #D9EDAA and small ochre route markers. Crisp contemporary sans serif for controls, editorial serif only for the main headline. Preserve the original actions, content and selected navigation state. Use comfortable text contrast and a clear 8-point rhythm; compact the oversized heading area, give the important trail information more hierarchy, and keep generous breathing room. Use a richer original flat landscape illustration with fine contour lines; no invented photos, ratings, memberships or new product features. Keep all supplied copy readable and accurate. Target: Finding your way loading state. Retain FIELDNOTES label, route illustration, Preparing your trail notes and checking the route ahead., progressbar at68percent, A moment to slow down., Back to trail and Connection help. Keep this visibly a loading state rather than claiming completion. Give progress feedback and the secondary recovery action clear spacing. No bottom tabs because the source has none."
+        },
+        {
+          "capture_id": "0007-discover",
+          "prompt": "Use case: ui-mockup. Create one polished portrait mobile UI screenshot, edge to edge, no device frame, no perspective, no montage. Image 1 is the target state to redesign; other images are context from the same Fieldnotes app. Audience: beginner weekend walkers planning short coastal trails. Shared direction: a quiet outdoor field journal, warm ivory #F5F3EA, deep forest #183F34, muted sage #7C927D, restrained lime #D9EDAA and small ochre route markers. Crisp contemporary sans serif for controls, editorial serif only for the main headline. Preserve the original actions, content and selected navigation state. Use comfortable text contrast and a clear 8-point rhythm; compact the oversized heading area, give the important trail information more hierarchy, and keep generous breathing room. Use a richer original flat landscape illustration with fine contour lines; no invented photos, ratings, memberships or new product features. Keep all supplied copy readable and accurate. Target: Explore trail list. Retain A few paths worth taking., Trails near the coast search display, Easy selected/Nearby/Under2hours chips, Take the scenic route, Cerro Azul loop and El Faro lookout cards with their original descriptions, distances and Easy labels, both View trail actions, footer copy and Explore-selected bottom tabs. Make the two illustrated cards compact and align their information hierarchy. Do not imply the static demo search is a verified functional feature."
+        }
+      ],
+      "id": "review-001",
+      "theme": "Short coastal walks and calm weekend planning",
+      "audience": "Beginner walkers looking for an easy local trail",
+      "constraints": [
+        "Preserve all existing actions and route facts.",
+        "Maintain distinct loading and recovery states."
+      ],
+      "model": "external-agent",
+      "created_at": "2026-10-07T06:01:13+00:00",
+      "capture_ids": [
+        "0001-home",
+        "0002-detail",
+        "0003-loading",
+        "0007-discover"
+      ],
+      "capture_hashes": {
+        "0001-home": "c767c209ce4f66e1a24a0ea8dae51af6453ee9cb47c250e6bad7e87e22e1a606",
+        "0002-detail": "63b717f2225bf383c495fbc55faba4045ea64efaf70012f3d75029b775e59515",
+        "0003-loading": "7c7992be64ffe41a01c49f579d3f9e00ff064f34e92a8a900c9b15182abbc713",
+        "0007-discover": "fbf5a7d8624e759b2b7b86a9179a0cdafaa9c57d675cf46fc64237bcd201e974"
+      }
+    }
+  ],
+  "proposals": [
+    {
+      "id": "proposal-001",
+      "capture_id": "0001-home",
+      "file": "proposals/proposal-001.png",
+      "prompt": "Use case: ui-mockup. Create one polished portrait mobile UI screenshot, edge to edge, no device frame, no perspective, no montage. Image 1 is the target state to redesign; other images are context from the same Fieldnotes app. Audience: beginner weekend walkers planning short coastal trails. Shared direction: a quiet outdoor field journal, warm ivory #F5F3EA, deep forest #183F34, muted sage #7C927D, restrained lime #D9EDAA and small ochre route markers. Crisp contemporary sans serif for controls, editorial serif only for the main headline. Preserve the original actions, content and selected navigation state. Use comfortable text contrast and a clear 8-point rhythm; compact the oversized heading area, give the important trail information more hierarchy, and keep generous breathing room. Use a richer original flat landscape illustration with fine contour lines; no invented photos, ratings, memberships or new product features. Keep all supplied copy readable and accurate. Target: Home. Retain fieldnotes branding, MAKE ROOM FOR OUTSIDE, A little more outside., the two supporting sentences, Cerro Azul loop with 4.8 km, Easy and 1 h 20 min, its open-arrow action, A good day to wander, weather 21 degrees with Clear skies, light breeze and water reminder. Retain bottom navigation Home, Explore, Saved, You with Home selected. Make the landscape trail card the visual anchor; use a more compact weather row and a rounded forest-green arrow button. Render at roughly the source tall phone aspect ratio with safe-area status bar and home indicator.",
+      "provider": "external",
+      "model": "",
+      "review_id": "review-001",
+      "created_at": "2026-10-07T06:03:39+00:00",
+      "sha256": "fd37a0c860892ef7a3d19b678e00669324c8c1dddde6a62d697bea149957e1a4",
+      "image_size": [
+        852,
+        1846
+      ]
+    },
+    {
+      "id": "proposal-002",
+      "capture_id": "0002-detail",
+      "file": "proposals/proposal-002.png",
+      "prompt": "Use case: ui-mockup. Create one polished portrait mobile UI screenshot, edge to edge, no device frame, no perspective, no montage. Image 1 is the target state to redesign; other images are context from the same Fieldnotes app. Audience: beginner weekend walkers planning short coastal trails. Shared direction: a quiet outdoor field journal, warm ivory #F5F3EA, deep forest #183F34, muted sage #7C927D, restrained lime #D9EDAA and small ochre route markers. Crisp contemporary sans serif for controls, editorial serif only for the main headline. Preserve the original actions, content and selected navigation state. Use comfortable text contrast and a clear 8-point rhythm; compact the oversized heading area, give the important trail information more hierarchy, and keep generous breathing room. Use a richer original flat landscape illustration with fine contour lines; no invented photos, ratings, memberships or new product features. Keep all supplied copy readable and accurate. Target: Trail notes detail for Cerro Azul loop. Keep back, the coastal subtitle, contour route map, distance4.8 km, estimatedtime1h20 and Easypace. Keep Leave early. Take your time., the water/lightlayer/friend advice and lookoutbeforemidday. Retain Prepare my route primary and Save secondary plus bottomnavigation with Explore selected. Improve the map/data hierarchy and clearly separate advice from actions. Image5 is the generated Home proposal from this review; use it as the shared style reference: match its editorial serif, rich flat coastal illustration, rounded corners, spacing and forest/ivory palette. Keep the route geometry and all source route facts. Spell original copy with normal word spacing. Single edge-to-edge portrait screen, approximately 390:844 aspect ratio.",
+      "provider": "external",
+      "model": "",
+      "review_id": "review-001",
+      "created_at": "2026-10-07T06:05:58+00:00",
+      "sha256": "720a2a3144d556e655e50aa2db694c6597f4d1073eadd5eac4be53f6a0e5ce0a",
+      "image_size": [
+        853,
+        1844
+      ]
+    }
+  ]
+}

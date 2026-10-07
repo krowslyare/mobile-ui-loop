@@ -1,0 +1,29 @@
+{
+  "source": "Codex built-in Image Gen",
+  "model_identifier": "Not exposed by the built-in tool",
+  "runs": [
+    {
+      "proposal_id": "proposal-001",
+      "capture_id": "0001-home",
+      "reference_files": [
+        "captures/0001-home.png",
+        "captures/0002-detail.png",
+        "captures/0003-loading.png",
+        "captures/0007-discover.png"
+      ],
+      "prompt_file": "home-prompt.txt"
+    },
+    {
+      "proposal_id": "proposal-002",
+      "capture_id": "0002-detail",
+      "reference_files": [
+        "captures/0002-detail.png",
+        "captures/0001-home.png",
+        "captures/0003-loading.png",
+        "captures/0007-discover.png",
+        "proposals/proposal-001.png"
+      ],
+      "prompt_file": "detail-prompt.txt"
+    }
+  ]
+}
