@@ -1,5 +1,9 @@
 # Working on Mobile UI Loop
 
+Start with `README.md` and the master prompt in
+`prompts/mobile-ui-loop.en.md` or `prompts/mobile-ui-loop.es.md`.
+Device setup and CLI/MCP review contracts live in `docs/`.
+
 This is a standalone public-facing developer tool. Keep examples original and
 independent of private apps. Capture provenance and coverage claims must be
 explicit: a supplied inventory is different from observed running states, and
